@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULIR PENDAFTARAN ORGANISASI A</title>
+</head>
+<body>
+	<center><b><u><h1>FORMULIR PENDAFTARAN ORGANISASI A</h1></u></b></center>
+<hr>
+<center>
+<table bgcolor="grey" border=0>
+	<tr>
+		<td>Nama Lengkap</td>
+		<td>:</td>
+		<td><input type=text name=Nama></td>
+	</tr>
+	<tr>
+		<td>NIK</td>
+		<td>:</td>
+		<td><input type=text name=NIK></td>
+	</tr>
+	<tr>
+		<td>Tempat, Tanggal Lahir</td>
+		<td>:</td>
+		<td><input type=text name=Tempat size=30>
+		<td><input type=date name=Tanggal>
+		</td>
+	</tr>
+	<tr>
+		<td>Jenis Kelamin</td>
+		<td>:</td>
+		<td><input type=radio name=Jenis value=Laki-laki>Laki-laki<input type=radio name=Perempuan>Perempuan</td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td>:</td>
+		<td><input type=text name=Alamat size=30></td>
+		<tr>
+			<td>Kota</td>
+			<td>:</td>
+			<td><input type=text name=Kota size=30></td>
+		</tr>
+		<tr>
+			<td>Provinsi</td>
+			<td>:</td>
+			<td><input type=text name=Provinsi size=30></td>
+		</tr>
+	</tr>
+	<tr>
+		<td>No. Telepon</td>
+		<td>:</td>
+		<td><input type=text name=NoHP size=30></td>
+	</tr>
+	<tr>
+		<td>Email</td>
+		<td>:</td>
+		<td><input type=text name=Email size=30></td>
+	</tr>
+	<tr>
+		<td>Alasan Ingin Mendaftar</td>
+		<td>:</td>
+		<td><select name=Alasan>
+			<option name=Alasan>Alasan
+			<option name=Alasan>Menyukai bidang tersebut
+			<option name=Alasan>Bekerja di bidang tersebut
+			<option name=Alasan>Mengisi waktu luang
+			<option name=Alasan>Paksaan
+			</option>
+		</td>
+	</tr>
+	<tr>
+		<td>Motivasi</td>
+		<td>:</td>
+		<td><textarea></textarea></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td><input type="Submit" name="Submit" value="Submit"></td>
+	</tr>
+	</form>
+</table>
+</center>
+
+<h4><b>Nama 	: Afrilia Permatasari</b></h4>
+<h4><b>NIM 		: 182410101027</b></h4>
+</body>
+</html>
